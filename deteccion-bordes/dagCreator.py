@@ -9,10 +9,10 @@ jobs = ""
 variables = ""
 files = ['rubik.png', 'rubik8.png']
 
-for threshold in np.arange(0.1, 10, 0.1):    
-    jobs += JOB.format('TEST'+str(currentjob))
+for threshold in np.arange(0.1, 10.0, 0.1):        
     for filename in files:
-        variables += VARIABLES.format('TEST'+str(currentjob), filename,  threshold)
+        jobs += JOB.format('TEST'+str(currentjob))
+        variables += VARIABLES.format('TEST'+str(currentjob), filename,  float(threshold))
         variables += '\n'
         currentjob+=1
 
