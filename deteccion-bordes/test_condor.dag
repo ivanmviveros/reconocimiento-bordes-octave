@@ -1,0 +1,298 @@
+JOB TEST1 test_condor.condor
+JOB TEST3 test_condor.condor
+JOB TEST5 test_condor.condor
+JOB TEST7 test_condor.condor
+JOB TEST9 test_condor.condor
+JOB TEST11 test_condor.condor
+JOB TEST13 test_condor.condor
+JOB TEST15 test_condor.condor
+JOB TEST17 test_condor.condor
+JOB TEST19 test_condor.condor
+JOB TEST21 test_condor.condor
+JOB TEST23 test_condor.condor
+JOB TEST25 test_condor.condor
+JOB TEST27 test_condor.condor
+JOB TEST29 test_condor.condor
+JOB TEST31 test_condor.condor
+JOB TEST33 test_condor.condor
+JOB TEST35 test_condor.condor
+JOB TEST37 test_condor.condor
+JOB TEST39 test_condor.condor
+JOB TEST41 test_condor.condor
+JOB TEST43 test_condor.condor
+JOB TEST45 test_condor.condor
+JOB TEST47 test_condor.condor
+JOB TEST49 test_condor.condor
+JOB TEST51 test_condor.condor
+JOB TEST53 test_condor.condor
+JOB TEST55 test_condor.condor
+JOB TEST57 test_condor.condor
+JOB TEST59 test_condor.condor
+JOB TEST61 test_condor.condor
+JOB TEST63 test_condor.condor
+JOB TEST65 test_condor.condor
+JOB TEST67 test_condor.condor
+JOB TEST69 test_condor.condor
+JOB TEST71 test_condor.condor
+JOB TEST73 test_condor.condor
+JOB TEST75 test_condor.condor
+JOB TEST77 test_condor.condor
+JOB TEST79 test_condor.condor
+JOB TEST81 test_condor.condor
+JOB TEST83 test_condor.condor
+JOB TEST85 test_condor.condor
+JOB TEST87 test_condor.condor
+JOB TEST89 test_condor.condor
+JOB TEST91 test_condor.condor
+JOB TEST93 test_condor.condor
+JOB TEST95 test_condor.condor
+JOB TEST97 test_condor.condor
+JOB TEST99 test_condor.condor
+JOB TEST101 test_condor.condor
+JOB TEST103 test_condor.condor
+JOB TEST105 test_condor.condor
+JOB TEST107 test_condor.condor
+JOB TEST109 test_condor.condor
+JOB TEST111 test_condor.condor
+JOB TEST113 test_condor.condor
+JOB TEST115 test_condor.condor
+JOB TEST117 test_condor.condor
+JOB TEST119 test_condor.condor
+JOB TEST121 test_condor.condor
+JOB TEST123 test_condor.condor
+JOB TEST125 test_condor.condor
+JOB TEST127 test_condor.condor
+JOB TEST129 test_condor.condor
+JOB TEST131 test_condor.condor
+JOB TEST133 test_condor.condor
+JOB TEST135 test_condor.condor
+JOB TEST137 test_condor.condor
+JOB TEST139 test_condor.condor
+JOB TEST141 test_condor.condor
+JOB TEST143 test_condor.condor
+JOB TEST145 test_condor.condor
+JOB TEST147 test_condor.condor
+JOB TEST149 test_condor.condor
+JOB TEST151 test_condor.condor
+JOB TEST153 test_condor.condor
+JOB TEST155 test_condor.condor
+JOB TEST157 test_condor.condor
+JOB TEST159 test_condor.condor
+JOB TEST161 test_condor.condor
+JOB TEST163 test_condor.condor
+JOB TEST165 test_condor.condor
+JOB TEST167 test_condor.condor
+JOB TEST169 test_condor.condor
+JOB TEST171 test_condor.condor
+JOB TEST173 test_condor.condor
+JOB TEST175 test_condor.condor
+JOB TEST177 test_condor.condor
+JOB TEST179 test_condor.condor
+JOB TEST181 test_condor.condor
+JOB TEST183 test_condor.condor
+JOB TEST185 test_condor.condor
+JOB TEST187 test_condor.condor
+JOB TEST189 test_condor.condor
+JOB TEST191 test_condor.condor
+JOB TEST193 test_condor.condor
+JOB TEST195 test_condor.condor
+JOB TEST197 test_condor.condor
+
+VARS TEST1 filename="rubik.png" threshold="0.1"
+VARS TEST2 filename="rubik8.png" threshold="0.1"
+VARS TEST3 filename="rubik.png" threshold="0.2"
+VARS TEST4 filename="rubik8.png" threshold="0.2"
+VARS TEST5 filename="rubik.png" threshold="0.30000000000000004"
+VARS TEST6 filename="rubik8.png" threshold="0.30000000000000004"
+VARS TEST7 filename="rubik.png" threshold="0.4"
+VARS TEST8 filename="rubik8.png" threshold="0.4"
+VARS TEST9 filename="rubik.png" threshold="0.5"
+VARS TEST10 filename="rubik8.png" threshold="0.5"
+VARS TEST11 filename="rubik.png" threshold="0.6"
+VARS TEST12 filename="rubik8.png" threshold="0.6"
+VARS TEST13 filename="rubik.png" threshold="0.7000000000000001"
+VARS TEST14 filename="rubik8.png" threshold="0.7000000000000001"
+VARS TEST15 filename="rubik.png" threshold="0.8"
+VARS TEST16 filename="rubik8.png" threshold="0.8"
+VARS TEST17 filename="rubik.png" threshold="0.9"
+VARS TEST18 filename="rubik8.png" threshold="0.9"
+VARS TEST19 filename="rubik.png" threshold="1.0"
+VARS TEST20 filename="rubik8.png" threshold="1.0"
+VARS TEST21 filename="rubik.png" threshold="1.1"
+VARS TEST22 filename="rubik8.png" threshold="1.1"
+VARS TEST23 filename="rubik.png" threshold="1.2000000000000002"
+VARS TEST24 filename="rubik8.png" threshold="1.2000000000000002"
+VARS TEST25 filename="rubik.png" threshold="1.3000000000000003"
+VARS TEST26 filename="rubik8.png" threshold="1.3000000000000003"
+VARS TEST27 filename="rubik.png" threshold="1.4000000000000001"
+VARS TEST28 filename="rubik8.png" threshold="1.4000000000000001"
+VARS TEST29 filename="rubik.png" threshold="1.5000000000000002"
+VARS TEST30 filename="rubik8.png" threshold="1.5000000000000002"
+VARS TEST31 filename="rubik.png" threshold="1.6"
+VARS TEST32 filename="rubik8.png" threshold="1.6"
+VARS TEST33 filename="rubik.png" threshold="1.7000000000000002"
+VARS TEST34 filename="rubik8.png" threshold="1.7000000000000002"
+VARS TEST35 filename="rubik.png" threshold="1.8000000000000003"
+VARS TEST36 filename="rubik8.png" threshold="1.8000000000000003"
+VARS TEST37 filename="rubik.png" threshold="1.9000000000000001"
+VARS TEST38 filename="rubik8.png" threshold="1.9000000000000001"
+VARS TEST39 filename="rubik.png" threshold="2.0"
+VARS TEST40 filename="rubik8.png" threshold="2.0"
+VARS TEST41 filename="rubik.png" threshold="2.1"
+VARS TEST42 filename="rubik8.png" threshold="2.1"
+VARS TEST43 filename="rubik.png" threshold="2.2"
+VARS TEST44 filename="rubik8.png" threshold="2.2"
+VARS TEST45 filename="rubik.png" threshold="2.3000000000000003"
+VARS TEST46 filename="rubik8.png" threshold="2.3000000000000003"
+VARS TEST47 filename="rubik.png" threshold="2.4000000000000004"
+VARS TEST48 filename="rubik8.png" threshold="2.4000000000000004"
+VARS TEST49 filename="rubik.png" threshold="2.5000000000000004"
+VARS TEST50 filename="rubik8.png" threshold="2.5000000000000004"
+VARS TEST51 filename="rubik.png" threshold="2.6"
+VARS TEST52 filename="rubik8.png" threshold="2.6"
+VARS TEST53 filename="rubik.png" threshold="2.7"
+VARS TEST54 filename="rubik8.png" threshold="2.7"
+VARS TEST55 filename="rubik.png" threshold="2.8000000000000003"
+VARS TEST56 filename="rubik8.png" threshold="2.8000000000000003"
+VARS TEST57 filename="rubik.png" threshold="2.9000000000000004"
+VARS TEST58 filename="rubik8.png" threshold="2.9000000000000004"
+VARS TEST59 filename="rubik.png" threshold="3.0000000000000004"
+VARS TEST60 filename="rubik8.png" threshold="3.0000000000000004"
+VARS TEST61 filename="rubik.png" threshold="3.1"
+VARS TEST62 filename="rubik8.png" threshold="3.1"
+VARS TEST63 filename="rubik.png" threshold="3.2"
+VARS TEST64 filename="rubik8.png" threshold="3.2"
+VARS TEST65 filename="rubik.png" threshold="3.3000000000000003"
+VARS TEST66 filename="rubik8.png" threshold="3.3000000000000003"
+VARS TEST67 filename="rubik.png" threshold="3.4000000000000004"
+VARS TEST68 filename="rubik8.png" threshold="3.4000000000000004"
+VARS TEST69 filename="rubik.png" threshold="3.5000000000000004"
+VARS TEST70 filename="rubik8.png" threshold="3.5000000000000004"
+VARS TEST71 filename="rubik.png" threshold="3.6"
+VARS TEST72 filename="rubik8.png" threshold="3.6"
+VARS TEST73 filename="rubik.png" threshold="3.7"
+VARS TEST74 filename="rubik8.png" threshold="3.7"
+VARS TEST75 filename="rubik.png" threshold="3.8000000000000003"
+VARS TEST76 filename="rubik8.png" threshold="3.8000000000000003"
+VARS TEST77 filename="rubik.png" threshold="3.9000000000000004"
+VARS TEST78 filename="rubik8.png" threshold="3.9000000000000004"
+VARS TEST79 filename="rubik.png" threshold="4.0"
+VARS TEST80 filename="rubik8.png" threshold="4.0"
+VARS TEST81 filename="rubik.png" threshold="4.1"
+VARS TEST82 filename="rubik8.png" threshold="4.1"
+VARS TEST83 filename="rubik.png" threshold="4.2"
+VARS TEST84 filename="rubik8.png" threshold="4.2"
+VARS TEST85 filename="rubik.png" threshold="4.3"
+VARS TEST86 filename="rubik8.png" threshold="4.3"
+VARS TEST87 filename="rubik.png" threshold="4.3999999999999995"
+VARS TEST88 filename="rubik8.png" threshold="4.3999999999999995"
+VARS TEST89 filename="rubik.png" threshold="4.5"
+VARS TEST90 filename="rubik8.png" threshold="4.5"
+VARS TEST91 filename="rubik.png" threshold="4.6"
+VARS TEST92 filename="rubik8.png" threshold="4.6"
+VARS TEST93 filename="rubik.png" threshold="4.7"
+VARS TEST94 filename="rubik8.png" threshold="4.7"
+VARS TEST95 filename="rubik.png" threshold="4.8"
+VARS TEST96 filename="rubik8.png" threshold="4.8"
+VARS TEST97 filename="rubik.png" threshold="4.9"
+VARS TEST98 filename="rubik8.png" threshold="4.9"
+VARS TEST99 filename="rubik.png" threshold="5.0"
+VARS TEST100 filename="rubik8.png" threshold="5.0"
+VARS TEST101 filename="rubik.png" threshold="5.1"
+VARS TEST102 filename="rubik8.png" threshold="5.1"
+VARS TEST103 filename="rubik.png" threshold="5.2"
+VARS TEST104 filename="rubik8.png" threshold="5.2"
+VARS TEST105 filename="rubik.png" threshold="5.3"
+VARS TEST106 filename="rubik8.png" threshold="5.3"
+VARS TEST107 filename="rubik.png" threshold="5.4"
+VARS TEST108 filename="rubik8.png" threshold="5.4"
+VARS TEST109 filename="rubik.png" threshold="5.5"
+VARS TEST110 filename="rubik8.png" threshold="5.5"
+VARS TEST111 filename="rubik.png" threshold="5.6"
+VARS TEST112 filename="rubik8.png" threshold="5.6"
+VARS TEST113 filename="rubik.png" threshold="5.7"
+VARS TEST114 filename="rubik8.png" threshold="5.7"
+VARS TEST115 filename="rubik.png" threshold="5.8"
+VARS TEST116 filename="rubik8.png" threshold="5.8"
+VARS TEST117 filename="rubik.png" threshold="5.9"
+VARS TEST118 filename="rubik8.png" threshold="5.9"
+VARS TEST119 filename="rubik.png" threshold="6.0"
+VARS TEST120 filename="rubik8.png" threshold="6.0"
+VARS TEST121 filename="rubik.png" threshold="6.1"
+VARS TEST122 filename="rubik8.png" threshold="6.1"
+VARS TEST123 filename="rubik.png" threshold="6.2"
+VARS TEST124 filename="rubik8.png" threshold="6.2"
+VARS TEST125 filename="rubik.png" threshold="6.3"
+VARS TEST126 filename="rubik8.png" threshold="6.3"
+VARS TEST127 filename="rubik.png" threshold="6.4"
+VARS TEST128 filename="rubik8.png" threshold="6.4"
+VARS TEST129 filename="rubik.png" threshold="6.5"
+VARS TEST130 filename="rubik8.png" threshold="6.5"
+VARS TEST131 filename="rubik.png" threshold="6.6"
+VARS TEST132 filename="rubik8.png" threshold="6.6"
+VARS TEST133 filename="rubik.png" threshold="6.7"
+VARS TEST134 filename="rubik8.png" threshold="6.7"
+VARS TEST135 filename="rubik.png" threshold="6.8"
+VARS TEST136 filename="rubik8.png" threshold="6.8"
+VARS TEST137 filename="rubik.png" threshold="6.9"
+VARS TEST138 filename="rubik8.png" threshold="6.9"
+VARS TEST139 filename="rubik.png" threshold="7.0"
+VARS TEST140 filename="rubik8.png" threshold="7.0"
+VARS TEST141 filename="rubik.png" threshold="7.1"
+VARS TEST142 filename="rubik8.png" threshold="7.1"
+VARS TEST143 filename="rubik.png" threshold="7.2"
+VARS TEST144 filename="rubik8.png" threshold="7.2"
+VARS TEST145 filename="rubik.png" threshold="7.3"
+VARS TEST146 filename="rubik8.png" threshold="7.3"
+VARS TEST147 filename="rubik.png" threshold="7.4"
+VARS TEST148 filename="rubik8.png" threshold="7.4"
+VARS TEST149 filename="rubik.png" threshold="7.5"
+VARS TEST150 filename="rubik8.png" threshold="7.5"
+VARS TEST151 filename="rubik.png" threshold="7.6"
+VARS TEST152 filename="rubik8.png" threshold="7.6"
+VARS TEST153 filename="rubik.png" threshold="7.7"
+VARS TEST154 filename="rubik8.png" threshold="7.7"
+VARS TEST155 filename="rubik.png" threshold="7.8"
+VARS TEST156 filename="rubik8.png" threshold="7.8"
+VARS TEST157 filename="rubik.png" threshold="7.9"
+VARS TEST158 filename="rubik8.png" threshold="7.9"
+VARS TEST159 filename="rubik.png" threshold="8.0"
+VARS TEST160 filename="rubik8.png" threshold="8.0"
+VARS TEST161 filename="rubik.png" threshold="8.1"
+VARS TEST162 filename="rubik8.png" threshold="8.1"
+VARS TEST163 filename="rubik.png" threshold="8.2"
+VARS TEST164 filename="rubik8.png" threshold="8.2"
+VARS TEST165 filename="rubik.png" threshold="8.3"
+VARS TEST166 filename="rubik8.png" threshold="8.3"
+VARS TEST167 filename="rubik.png" threshold="8.4"
+VARS TEST168 filename="rubik8.png" threshold="8.4"
+VARS TEST169 filename="rubik.png" threshold="8.5"
+VARS TEST170 filename="rubik8.png" threshold="8.5"
+VARS TEST171 filename="rubik.png" threshold="8.6"
+VARS TEST172 filename="rubik8.png" threshold="8.6"
+VARS TEST173 filename="rubik.png" threshold="8.7"
+VARS TEST174 filename="rubik8.png" threshold="8.7"
+VARS TEST175 filename="rubik.png" threshold="8.8"
+VARS TEST176 filename="rubik8.png" threshold="8.8"
+VARS TEST177 filename="rubik.png" threshold="8.9"
+VARS TEST178 filename="rubik8.png" threshold="8.9"
+VARS TEST179 filename="rubik.png" threshold="9.0"
+VARS TEST180 filename="rubik8.png" threshold="9.0"
+VARS TEST181 filename="rubik.png" threshold="9.1"
+VARS TEST182 filename="rubik8.png" threshold="9.1"
+VARS TEST183 filename="rubik.png" threshold="9.2"
+VARS TEST184 filename="rubik8.png" threshold="9.2"
+VARS TEST185 filename="rubik.png" threshold="9.3"
+VARS TEST186 filename="rubik8.png" threshold="9.3"
+VARS TEST187 filename="rubik.png" threshold="9.4"
+VARS TEST188 filename="rubik8.png" threshold="9.4"
+VARS TEST189 filename="rubik.png" threshold="9.5"
+VARS TEST190 filename="rubik8.png" threshold="9.5"
+VARS TEST191 filename="rubik.png" threshold="9.6"
+VARS TEST192 filename="rubik8.png" threshold="9.6"
+VARS TEST193 filename="rubik.png" threshold="9.700000000000001"
+VARS TEST194 filename="rubik8.png" threshold="9.700000000000001"
+VARS TEST195 filename="rubik.png" threshold="9.8"
+VARS TEST196 filename="rubik8.png" threshold="9.8"
+VARS TEST197 filename="rubik.png" threshold="9.9"
+VARS TEST198 filename="rubik8.png" threshold="9.9"

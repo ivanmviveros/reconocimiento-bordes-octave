@@ -2,17 +2,19 @@
 #generates a list of dagman jobs, this is a combinatory problem.
 import numpy as np
 JOB = 'JOB {} test_condor.condor\n'
-VARIABLES = 'VARS {0} threshold="{1}"'
+VARIABLES = 'VARS {0} filename="{1}" threshold="{2}"'
 
 currentjob = 1
 jobs = ""
 variables = ""
+files = ['rubik.png', 'rubik8.png']
 
-for threshold in np.arange(0.1, 1, 0.1):    
+for threshold in np.arange(0.1, 10, 0.1):    
     jobs += JOB.format('TEST'+str(currentjob))
-    variables += VARIABLES.format('TEST'+str(currentjob), threshold)
-    variables += '\n'
-    currentjob+=1
+    for filename in files:
+        variables += VARIABLES.format('TEST'+str(currentjob), filename,  threshold)
+        variables += '\n'
+        currentjob+=1
 
 
 dagmanFile = open('test_condor.dag', 'w')

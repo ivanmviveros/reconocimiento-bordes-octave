@@ -12,6 +12,6 @@ pkg load image
 arg_list = argv ();
 getArg = @(number) str2double(arg_list{number});
 
-namefile = arg_list{1};
+filename = arg_list{1};
 threshold = getArg(2);
-canny_sobel(strcat('',namefile),threshold);
+canny_sobel(strcat('',filename),threshold);

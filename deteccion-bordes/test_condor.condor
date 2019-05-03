@@ -1,0 +1,12 @@
+Universe                = docker
+docker_image            = simexp/octave
+Executable              = ./runOctave.bash
+arguments               = -qfW octave_runner.m $(filename) $(threshold)
+should_transfer_files   = YES
+transfer_input_files    = runOctave.bash, octave_runner.m,rubik.png, rubik8.png ,canny_sobel.m,
+when_to_transfer_output = ON_EXIT_OR_EVICT
+output                  = logs/$(filename).out.$(threshold)
+error                   = logs/$(filename).err.$(threshold)
+log                     = logs/$(filename).log.$(threshold)
+request_memory          = 1024M
+queue 1
